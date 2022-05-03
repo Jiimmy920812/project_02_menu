@@ -1,0 +1,179 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Noto Serif TC', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+.head {
+  font-size: 3.5rem;
+}
+
+.header {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 5;
+      -ms-flex: 5 1 400px;
+          flex: 5 1 400px;
+}
+
+.header .logo img {
+  width: 100px;
+  margin-left: 5vw;
+}
+
+nav {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 400px;
+          flex: 2 1 400px;
+  margin-right: 5vw;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav ul li {
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: rgba(222, 222, 222, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 12%;
+}
+
+.backimage {
+  min-height: 70vh;
+  width: 100%;
+  background-image: url(../JPG/cover.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 1rem;
+}
+
+.fillter h3 {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+.fillter .start {
+  padding: 0.5rem 1.5rem;
+  margin-top: 12rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-color: rgba(214, 8, 8, 0.3);
+  color: white;
+}
+
+section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+section2 h2 {
+  margin: 1rem;
+}
+
+section2 part.cd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: 100%;
+}
+
+section2 part.cd div.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem 1rem;
+}
+
+section2 part.cd div.card h4 {
+  font-size: 2rem;
+}
+
+section2 part.cd div.card p {
+  font-size: 1rem;
+  padding: 1rem 5rem;
+  font-size: larger;
+}
+
+section2 part.cd div.card img {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 1rem;
+}
+
+section2 part.cd div.card a {
+  text-decoration: none;
+  background-color: rgba(222, 222, 222, 0.6);
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  color: black;
+  font-weight: bolder;
+  margin-top: 5rem;
+}
+/*# sourceMappingURL=style.css.map */
